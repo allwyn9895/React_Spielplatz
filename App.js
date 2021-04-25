@@ -1,9 +1,9 @@
-import React from 'react';
-import Home from './screens/home';
+import React, { useState } from 'react';
+import AppNavigator from './routes/homeStack';
 
 export default function App() {
-  return (
-    <Home />
-  );
+    return (
+      <AppNavigator />
+    ); 
 }
 
